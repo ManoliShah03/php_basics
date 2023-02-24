@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question 1</title>
+    <title>Question 7</title>
 </head>
 <body>
-    
+ 
 <?php
-    for($num=1; $num<=10; $num++)
+    echo "Odd numbers are: ";
+    for($a=1;$a<=10;$a=$a+2)
     {
-        echo "$num \n ";
+        echo "$a \n";
     }
 ?>
 
 </body>
 </html>
-
-
- 
