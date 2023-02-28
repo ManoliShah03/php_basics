@@ -13,9 +13,9 @@ function rev($str)
 function palindrome($str){
     $reverse = rev($str);  
     if ($reverse == $str) {
-    echo $str ." is Palindrom" ."<br>";
+    echo $str ." is Palindrome" ."<br>";
 } else {
-    echo $str ." is not Palindrom" ."<br>";
+    echo $str ." is not Palindrome" ."<br>";
 }
 }
 
