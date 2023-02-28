@@ -12,7 +12,7 @@
 $str = '000003445557000234';
 $str1 = ltrim($str, '0');
 echo "Original String : " .$str . "<br>";
-echo "After removing leading zero : " . $str1."\n";
+echo "After removing leading zero : " . $str1;
 
 ?>
 
